@@ -1,0 +1,47 @@
+{
+  "name": "lrnr-app-team-2-khalia",
+  "version": "1.0.0",
+  "description": "## Project Overview LRNR is a quiz generation application that uses the **Claude AI API** to create customized quizzes based on user input. Originally built with **jQuery** and **GO**, the application is being refactored into **Node.js** and **React** for improved scalability and maintainability.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "testEnvironment": "jsdom",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!lucide-react)"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkhhaalliiaa/lrnr-app-team-2-Khalia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkhhaalliiaa/lrnr-app-team-2-Khalia/issues"
+  },
+  "homepage": "https://github.com/kkhhaalliiaa/lrnr-app-team-2-Khalia#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "cypress": "^14.1.0",
+    "jest": "^29.7.0",
+    "jsdom": "^26.0.0",
+    "sass-embedded": "^1.85.1",
+    "vitest": "^3.0.7"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "jest-environment-jsdom": "^29.7.0",
+    "react-router-dom": "^7.2.0"
+  }
+}
